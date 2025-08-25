@@ -1,0 +1,34 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(26, 166, 221, 0.87);
+  background-color: rgb(241, 241, 245);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  height: 25px;
+  width: 200px;
+  border: none;
+  margin: 20px;
+  border-radius: 5px;
+}
+input:focus {
+  border: 2px solid rgba(26, 166, 221, 0.87);
+  outline: none;
+}
+
+button {
+  background-color: rgba(26, 166, 221, 0.87);
+  color: rgb(241, 241, 245);
+  border-radius: 3px;
+  border: none;
+  margin-left: 20px;
+}
